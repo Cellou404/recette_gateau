@@ -1,0 +1,129 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+div.categorie {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+.contenu{
+    background-color: white;
+    margin: 60px 70px;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin: 12px;
+}
+p.description{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    font-size: 14px;
+}
+div.description{
+    text-align: center;
+}
+hr{
+    width: 200px;
+    height: 1px;
+    background-color:#8BA1BBC0;
+}
+.centre {
+    text-align: center;
+    width: 100%;
+}
+.image {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+div.info{position: relative;}
+table.info{
+    position: absolute; 
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    color: white; 
+    text-align: center; 
+    background-color: #8BA1BBC0;
+}
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th {
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+div.colone {
+    width: 45%;
+    margin-top: 20px;
+}
+div.colone h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #8BA1BB;
+    padding-bottom: 10px;
+}
+div.ingredients {
+    /*background-color: lightseagreen;*/
+    display: inline-block;
+    margin-right: 10%;
+}
+div.preparation {
+    float: right;
+}
+
+div.liste_ingredients p {
+    border: 1px solid lightslategrey;
+    margin: 4px;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+table.liste_preparation p.numero {
+    background-color: skyblue;
+    color: white !important;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+table.liste_preparation td {
+    vertical-align: top;
+}
+table.liste_preparation tr {
+    height: 40px;
+}
+td.etape_preparation {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
